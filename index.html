@@ -483,60 +483,60 @@
         // Banco de perguntas EXPANDIDO
         const QUESTIONS = [
             // FÁCEIS (15 perguntas)
-            {q: "O que significa HTML?", opts: ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks Text"], ans: 0, diff: "easy", move: 3},
+            {q: "O que é um antivírus?", opts: ["Firewall de hardware", "Software que detecta e remove malware", "Tipo de backup", "Protocolo de rede"], ans: 1, diff: "easy", move: 3},
             {q: "Qual linguagem é conhecida como 'linguagem da web'?", opts: ["Python", "Java", "JavaScript", "C++"], ans: 2, diff: "easy", move: 3},
-            {q: "O que é CSS?", opts: ["Central Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style"], ans: 1, diff: "easy", move: 3},
+            {q: "O que é uma senha forte?", opts: ["Só números", "Combinação de letras, números e símbolos", "Nome da pessoa", "Data de nascimento"], ans: 1, diff: "easy", move: 3},
             {q: "Qual empresa criou o Windows?", opts: ["Apple", "Google", "Microsoft", "IBM"], ans: 2, diff: "easy", move: 3},
-            {q: "O que significa RAM?", opts: ["Random Access Memory", "Read Access Memory", "Rapid Access Memory", "Remote Access"], ans: 0, diff: "easy", move: 2},
-            {q: "Como comentar uma linha em JavaScript?", opts: ["//", "/*", "#", "<!--"], ans: 0, diff: "easy", move: 2},
+            {q: "O que significa malware?", opts: ["Software malicioso", "Hardware quebrado", "Erro de sistema", "Arquivo corrompido"], ans: 0, diff: "easy", move: 2},
+            {q: "O que é HTTPS?", opts: ["HTTP mais rápido", "HTTP seguro com criptografia", "HTTP para mobile", "HTTP sem conexão"], ans: 1, diff: "easy", move: 2},
             {q: "Qual tag HTML cria um link?", opts: ["<link>", "<a>", "<href>", "<url>"], ans: 1, diff: "easy", move: 2},
-            {q: "O que é um bug?", opts: ["Vírus", "Erro no código", "Tipo de dado", "Função"], ans: 1, diff: "easy", move: 3},
+            {q: "O que é um vírus de computador?", opts: ["Programa útil", "Código malicioso que se replica", "Atualização de sistema", "Tipo de arquivo"], ans: 1, diff: "easy", move: 3},
             {q: "Qual linguagem usa 'print()' para exibir texto?", opts: ["HTML", "CSS", "Python", "SQL"], ans: 2, diff: "easy", move: 3},
             {q: "O que significa CPU?", opts: ["Central Processing Unit", "Computer Personal Unit", "Central Program Unit", "Core Processing Unit"], ans: 0, diff: "easy", move: 2},
-            {q: "Qual extensão tem um arquivo Python?", opts: [".pt", ".py", ".python", ".pyt"], ans: 1, diff: "easy", move: 2},
-            {q: "O que é um pixel?", opts: ["Um programa", "Menor ponto de uma imagem", "Um tipo de arquivo", "Uma linguagem"], ans: 1, diff: "easy", move: 2},
-            {q: "Qual símbolo representa 'E' lógico em programação?", opts: ["||", "&&", "!!", "=="], ans: 1, diff: "easy", move: 2},
+            {q: "O que é spam?", opts: ["Vírus perigoso", "E-mail indesejado em massa", "Tipo de firewall", "Protocolo de rede"], ans: 1, diff: "easy", move: 2},
+            {q: "O que é backup?", opts: ["Deletar arquivos", "Cópia de segurança dos dados", "Tipo de vírus", "Atualização de software"], ans: 1, diff: "easy", move: 2},
+            {q: "O que significa 'clicar em links suspeitos' pode causar?", opts: ["Melhor desempenho", "Infecção por malware", "Mais velocidade", "Economia de bateria"], ans: 1, diff: "easy", move: 2},
             {q: "O que é USB?", opts: ["Universal Serial Bus", "Universal System Bus", "United Serial Bus", "Ultra Speed Bus"], ans: 0, diff: "easy", move: 2},
-            {q: "Qual empresa criou o Java?", opts: ["Microsoft", "Apple", "Sun Microsystems", "Google"], ans: 2, diff: "easy", move: 3},
-            
+            {q: "O que é um hacker ético?", opts: ["Criminoso virtual", "Profissional que testa segurança legalmente", "Tipo de vírus", "Software malicioso"], ans: 1, diff: "easy", move: 3},
+                        
             // MÉDIAS (15 perguntas)
-            {q: "Em Python, como converter string para minúsculas?", opts: [".lowercase()", ".lower()", ".toLower()", ".downcase()"], ans: 1, diff: "medium", move: 4},
+            {q: "O que é um ataque de phishing?", opts: ["Ataque a redes físicas", "Engenharia social via e-mail falso", "Vírus de computador", "Firewall desativado"], ans: 1, diff: "medium", move: 4},
             {q: "Qual protocolo transfere páginas web?", opts: ["FTP", "SMTP", "HTTP", "SSH"], ans: 2, diff: "medium", move: 3},
-            {q: "O que significa API?", opts: ["Advanced Programming Interface", "Application Programming Interface", "Automated Program", "Applied Program"], ans: 1, diff: "medium", move: 3},
-            {q: "Qual estrutura usa LIFO?", opts: ["Fila", "Pilha", "Lista", "Árvore"], ans: 1, diff: "medium", move: 4},
-            {q: "Em Git, como criar branch?", opts: ["git new", "git branch nome", "git create", "git add"], ans: 1, diff: "medium", move: 3},
+            {q: "O que significa DDoS?", opts: ["Data Denial of Service", "Distributed Denial of Service", "Digital Defense System", "Direct Data Output"], ans: 1, diff: "medium", move: 3},
+            {q: "O que é um firewall?", opts: ["Antivírus", "Barreira de segurança de rede", "Tipo de malware", "Protocolo de rede"], ans: 1, diff: "medium", move: 4},
+            {q: "O que significa VPN?", opts: ["Virtual Private Network", "Very Private Network", "Verified Protocol Network", "Visual Program Node"], ans: 0, diff: "medium", move: 3},
             {q: "O que é localhost?", opts: ["Servidor remoto", "O próprio PC", "Tipo de rede", "Protocolo"], ans: 1, diff: "medium", move: 3},
-            {q: "Comando SQL para remover duplicatas?", opts: ["UNIQUE", "DISTINCT", "REMOVE", "NODUPE"], ans: 1, diff: "medium", move: 4},
+            {q: "O que é criptografia de ponta a ponta?", opts: ["Backup automático", "Dados criptografados do remetente ao destinatário", "Antivírus em tempo real", "Protocolo de rede"], ans: 1, diff: "medium", move: 4},
             {q: "O que é JSON?", opts: ["JavaScript Object Notation", "Java Standard Object Notation", "JavaScript Online Network", "Java System Object"], ans: 0, diff: "medium", move: 4},
-            {q: "Qual porta padrão do HTTP?", opts: ["21", "22", "80", "443"], ans: 2, diff: "medium", move: 4},
-            {q: "O que é um loop 'for'?", opts: ["Estrutura condicional", "Estrutura de repetição", "Função", "Variável"], ans: 1, diff: "medium", move: 3},
-            {q: "Em orientação a objetos, o que é herança?", opts: ["Criar objetos", "Classe herdar de outra", "Deletar classes", "Método privado"], ans: 1, diff: "medium", move: 4},
-            {q: "O que é CSS Flexbox?", opts: ["Framework", "Sistema de layout", "Linguagem", "Biblioteca"], ans: 1, diff: "medium", move: 3},
+            {q: "Qual porta padrão do HTTPS?", opts: ["21", "80", "443", "8080"], ans: 2, diff: "medium", move: 4},
+            {q: "O que é autenticação de dois fatores (2FA)?", opts: ["Backup duplo", "Camada extra de segurança no login", "Dois antivírus", "Senha com 2 caracteres"], ans: 1, diff: "medium", move: 3},
+            {q: "O que é ransomware?", opts: ["Antivírus gratuito", "Malware que sequestra dados por resgate", "Firewall avançado", "Protocolo seguro"], ans: 1, diff: "medium", move: 4},
+            {q: "O que é SQL Injection?", opts: ["Backup de banco", "Ataque que explora vulnerabilidade em consultas SQL", "Tipo de criptografia", "Método de autenticação"], ans: 1, diff: "medium", move: 4},
             {q: "Qual comando Git envia alterações?", opts: ["git send", "git push", "git upload", "git commit"], ans: 1, diff: "medium", move: 3},
-            {q: "O que é array?", opts: ["Função", "Coleção ordenada de elementos", "Loop", "Operador"], ans: 1, diff: "medium", move: 3},
+            {q: "O que é um certificado SSL/TLS?", opts: ["Licença de software", "Certificado digital para conexão segura", "Tipo de vírus", "Backup em nuvem"], ans: 1, diff: "medium", move: 3},
             {q: "O que significa IDE?", opts: ["Integrated Development Environment", "Internet Development Editor", "Internal Design Environment", "Interface Design Editor"], ans: 0, diff: "medium", move: 4},
-            
+                        
             // DIFÍCEIS (20 perguntas com pegadinhas)
-            {q: "PEGADINHA: Em JS, '0.1 + 0.2 === 0.3' é:", opts: ["true", "false", "undefined", "NaN"], ans: 1, diff: "hard", move: 5},
+            {q: "PEGADINHA: Qual ataque explora vulnerabilidades antes de correção?", opts: ["Phishing", "Zero-day", "Brute force", "DDoS"], ans: 1, diff: "hard", move: 5},
             {q: "Complexidade da busca binária?", opts: ["O(n)", "O(log n)", "O(n²)", "O(1)"], ans: 1, diff: "hard", move: 5},
-            {q: "O que é closure?", opts: ["Loop", "Função que lembra escopo", "Operador", "Estrutura"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: Em JS, typeof NaN é:", opts: ["'NaN'", "'undefined'", "'number'", "'null'"], ans: 2, diff: "hard", move: 6},
+            {q: "O que é um ataque Man-in-the-Middle?", opts: ["Vírus", "Interceptação de comunicação entre duas partes", "Backup falho", "Erro de sistema"], ans: 1, diff: "hard", move: 5},
+            {q: "PEGADINHA: Qual protocolo é mais seguro para e-mail?", opts: ["SMTP", "POP3", "IMAP com TLS", "HTTP"], ans: 2, diff: "hard", move: 6},
             {q: "PEGADINHA: 1 kilobyte tem quantos bytes?", opts: ["1000", "1024", "1048", "8000"], ans: 1, diff: "hard", move: 5},
-            {q: "O que é DNS?", opts: ["Data Network System", "Domain Name System", "Digital Network", "Domain Network"], ans: 1, diff: "hard", move: 4},
-            {q: "Padrão que cria instância única?", opts: ["Factory", "Singleton", "Observer", "Strategy"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: Em JS, '1' + 1 é:", opts: ["2", "'11'", "11", "Error"], ans: 1, diff: "hard", move: 6},
-            {q: "PEGADINHA: Em JS, [] == ![] é:", opts: ["true", "false", "undefined", "Error"], ans: 0, diff: "hard", move: 6},
+            {q: "O que é DNS spoofing?", opts: ["Backup de DNS", "Manipulação de respostas DNS para redirecionar tráfego", "Protocolo seguro", "Tipo de firewall"], ans: 1, diff: "hard", move: 4},
+            {q: "O que é salt em criptografia de senhas?", opts: ["Tipo de hash", "Dado aleatório adicionado antes do hash", "Algoritmo de criptografia", "Protocolo de rede"], ans: 1, diff: "hard", move: 5},
+            {q: "PEGADINHA: Qual porta o SSH usa por padrão?", opts: ["21", "22", "23", "25"], ans: 1, diff: "hard", move: 6},
+            {q: "PEGADINHA: O que significa CVE em segurança?", opts: ["Common Virus Entry", "Common Vulnerabilities and Exposures", "Central Virus Engine", "Cyber Virus Exploit"], ans: 1, diff: "hard", move: 6},
             {q: "O que é hoisting em JavaScript?", opts: ["Erro", "Elevação de declarações", "Loop", "Função"], ans: 1, diff: "hard", move: 5},
-            {q: "Qual a diferença entre '==' e '===' em JS?", opts: ["Nenhuma", "=== compara tipo também", "== é mais rápido", "=== é deprecated"], ans: 1, diff: "hard", move: 5},
+            {q: "O que é engenharia social?", opts: ["Programação", "Manipulação psicológica para obter informações", "Tipo de rede", "Framework"], ans: 1, diff: "hard", move: 5},
             {q: "O que é Big O notation?", opts: ["Tipo de dado", "Análise de complexidade", "Linguagem", "Framework"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: Em Python, 'is' e '==' são iguais?", opts: ["Sim, sempre", "Não, 'is' compara identidade", "Sim, mas 'is' é mais rápido", "Não, '==' não existe"], ans: 1, diff: "hard", move: 6},
+            {q: "PEGADINHA: Qual algoritmo é mais seguro atualmente?", opts: ["MD5", "SHA-1", "AES-256", "DES"], ans: 2, diff: "hard", move: 6},
             {q: "Qual algoritmo de ordenação é O(n log n)?", opts: ["Bubble Sort", "Quick Sort (médio)", "Merge Sort", "Selection Sort"], ans: 2, diff: "hard", move: 5},
             {q: "O que é RESTful API?", opts: ["Tipo de banco", "Arquitetura web", "Linguagem", "Framework"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: Em JS, null == undefined é:", opts: ["true", "false", "Error", "NaN"], ans: 0, diff: "hard", move: 6},
+            {q: "PEGADINHA: O que é mais seguro para armazenar senhas?", opts: ["Texto puro", "Base64", "Hash com bcrypt/argon2", "Criptografia reversível"], ans: 2, diff: "hard", move: 6},
             {q: "O que é recursão?", opts: ["Loop infinito", "Função que chama a si mesma", "Erro", "Tipo de dado"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: Em JS, typeof null é:", opts: ["'null'", "'undefined'", "'object'", "Error"], ans: 2, diff: "hard", move: 6},
-            {q: "O que é deadlock?", opts: ["Bug", "Processos aguardando recursos mutuamente", "Erro de sintaxe", "Tipo de loop"], ans: 1, diff: "hard", move: 5},
-            {q: "PEGADINHA: parseInt('08') em JS antigo retorna:", opts: ["8", "0", "Error", "NaN"], ans: 1, diff: "hard", move: 6}
+            {q: "PEGADINHA: Qual ataque testa todas combinações possíveis?", opts: ["Phishing", "DDoS", "Brute force", "SQL Injection"], ans: 2, diff: "hard", move: 6},
+            {q: "O que é privilege escalation?", opts: ["Erro de código", "Obter acesso de nível superior não autorizado", "Tipo de backup", "Protocolo de rede"], ans: 1, diff: "hard", move: 5},
+            {q: "PEGADINHA: HTTPS usa qual porta por padrão?", opts: ["80", "443", "8080", "22"], ans: 1, diff: "hard", move: 6}
         ];
 
         // Cartas de ação EXPANDIDAS
@@ -868,4 +868,5 @@
         });
     </script>
 </body>
+
 </html>
